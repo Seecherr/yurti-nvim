@@ -1,6 +1,7 @@
 return {
     {
-        'ThePrimeagen/harpoon', 
+        'ThePrimeagen/harpoon',
+        lazy = true,
         dependencies = {"nvim-lua/plenary.nvim"},
         config = function()
             require("harpoon").setup()
